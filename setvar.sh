@@ -1,6 +1,8 @@
 job_name=NRJR72023
 job_rec=BYREQ
 market=NRJ
+#For new job put option=1 and for a new jobreq option=2
+option=1
 #------------------------------------------------------------------------------------------------#
 #                                               ophost                                           #
 # login name is reffered to as opeartor id in most of the tables entry for the same is mandatory #
@@ -32,7 +34,6 @@ opprog_immediate_ind=1
 at_time=null
 until_time=null
 every=null
-sch_name=CR72020
 #------------------------------------------------------------------------------------------------#
 #                                             opprog_sch                                         #
 #------------------------------------------------------------------------------------------------#
