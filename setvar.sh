@@ -1,6 +1,6 @@
-job_name=NRJR72023
+job_name=optest
 job_rec=BYREQ
-market=NRJ
+market=MMC
 #For new job put option=1 and for a new jobreq option=2
 option=1
 #------------------------------------------------------------------------------------------------#
@@ -8,21 +8,21 @@ option=1
 # login name is reffered to as opeartor id in most of the tables entry for the same is mandatory #
 #                               Even when only jobreq to be inserted                             #
 #------------------------------------------------------------------------------------------------#
-cpu_id=BARCELONA.F.C
-login_name=NR11
+cpu_id=opcusmmc
+login_name=opc3oper
 #------------------------------------------------------------------------------------------------#
 #                                             jobdbconnect                                       #
 #                                          maybe like F or T                                     #
 #------------------------------------------------------------------------------------------------#
 run_mode=F
-db_connect_code=OL3APPNR11
+db_connect_code=OL3APPC
 #------------------------------------------------------------------------------------------------#
 #                                            opprog table                                        #
 #                                  Put opprog_description in QUOTES                              #
 #------------------------------------------------------------------------------------------------#
-opprog_prog_name=NRJR_
-opprog_description='Free kick is mine'
-app_script=nr11_2023_sh
+opprog_prog_name=optest_
+opprog_description='For the purpose of testing'
+app_script=optest_sh
 #------------------------------------------------------------------------------------------------#
 #                                            maybe 1 or 0                                        #
 #------------------------------------------------------------------------------------------------#
