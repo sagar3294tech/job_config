@@ -1,6 +1,6 @@
-job_name=optest
+job_name=optest2
 job_rec=BYREQ
-market=MMC
+market=MMO
 #For new job put option=1 and for a new jobreq option=2
 option=1
 #------------------------------------------------------------------------------------------------#
@@ -8,8 +8,8 @@ option=1
 # login name is reffered to as opeartor id in most of the tables entry for the same is mandatory #
 #                               Even when only jobreq to be inserted                             #
 #------------------------------------------------------------------------------------------------#
-cpu_id=opcusmmc
-login_name=opc3oper
+cpu_id=opcusmmo
+login_name=opc1oper
 #------------------------------------------------------------------------------------------------#
 #                                             jobdbconnect                                       #
 #                                          maybe like F or T                                     #
@@ -20,9 +20,9 @@ db_connect_code=OL3APPC
 #                                            opprog table                                        #
 #                                  Put opprog_description in QUOTES                              #
 #------------------------------------------------------------------------------------------------#
-opprog_prog_name=optest_
+opprog_prog_name=opt_
 opprog_description='For the purpose of testing'
-app_script=optest_sh
+app_script=optest2_sh
 #------------------------------------------------------------------------------------------------#
 #                                            maybe 1 or 0                                        #
 #------------------------------------------------------------------------------------------------#
